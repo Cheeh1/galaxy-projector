@@ -76,7 +76,7 @@ const App = () => {
       <Toaster />
       <main className="">
         <div className="bg-black px-5 xl:px-20 text-white text-center py-10">
-          <h2 className="xl:text-4xl font-bold text-[#00FFFF]">
+          <h2 className="text-4xl font-bold text-[#00FFFF]">
             The Glalaxy Projector
           </h2>
           <p className="xl:text-lg md:text-lg text-yellow-300 my-5">
@@ -90,7 +90,6 @@ const App = () => {
           <hr className="xl:hidden mt-5 w-full" />
           <div className="flex flex-col mt-5 md:mt-10 gap-8 items-start md:flex-row">
             <div>
-              {/* <h2 className='xl:text-xl font-semibold'>Revolutionize Your Security with Stealthy Spy Cameras!</h2> */}
               <h4 className="text-red-600 text-xl md:text-2xl xl:text-3xl font-bold my-5">3 Years Warranty!!!</h4>
               <img
                 className='xl:w-[50rem]'
@@ -109,18 +108,7 @@ const App = () => {
           </div>
 
           <hr className="mt-5 xl:hidden w-full" />
-          {/* <h1 className="text-red-600 text-2xl xl:text-4xl font-bold py-10">CHARGE AND USE, COMES WITH FREE MEMORY CARD</h1>
-          <p>
-            <span className="text-yellow-300 text-lg font-bold">
-              You can wear the Spy Button Cam Full HD on your clothes or keep the
-              mini camera in your pocket </span
-            >, on your desk, wear around your neck practically anywhere discreetly.
-            And it has a built-in magnetic suction device, which can be firmly
-            attached to metal objects
-          </p> */}
-
-          <hr className=" xl:hidden w-full mt-5" />
-          <div className="flex py-20 flex-col justify-center gap-40 md:flex-row">
+          <div className="flex py-20 flex-col justify-center xl:gap-40 md:flex-row">
             <div className='flex flex-col gap-3'>
               <h2 className="text-red-600 text-2xl text-left xl:text-center font-bold">Product Highlights:</h2>
               <ul className="text-[#00ffff] flex flex-col gap-2 text-left">
@@ -128,14 +116,6 @@ const App = () => {
                 <li>Remote Controller</li>
                 <li>USB Cable</li>
                 <li>User Manual</li>
-                {/* <li>30 Hour Rechargeable Battery</li>
-                <li>4 Style of Buttons</li>
-                <li>Time/Date Stamp</li>
-                <li>Works w/PC or Mac</li>
-                <li>Remote Control</li>
-                <li>1.8&quot; x 0.9&quot; x 0.4&quot;</li>
-                <li>Lifetime Warranty</li>
-                <li>Lifetime Support</li> */}
               </ul>
             </div>
             <div>
@@ -146,32 +126,9 @@ const App = () => {
               />
             </div>
           </div>
-          {/* <h3 className=''>
-            Designed to stick through a button hole with the main electronics
-            remaining hidden, this miniature camera takes 480p video and can snap
-            p1280x1024 JPEG
-          </h3> */}
 
-          {/* <div className="my-16">
-            <hr className="mb-5 xl:hidden w-full" />
-            <h1 className="text-[#00ffff] text-lg md:text-xl xl:text-2xl font-bold">
-              <span className="text-red-600">Please Note:</span> THIS IS THE ONLY BODY SPY
-              CCTV YOU WOULD EVER NEED!
-            </h1>
-            <hr className="md:hidden xl:hidden w-full" />
-          </div> */}
-
-
-          <h2 className="text-red-600 text-4xl mt-16 text-left xl:text-center font-bold">Product Samples</h2>
+          <h2 className="text-red-600 text-4xl xl:mt-16 text-left xl:text-center font-bold">Product Samples</h2>
           <div className="flex flex-wrap gap-8 mt-8 m-auto justify-center ">
-            {/* <div>
-              <h4 className="text-yellow-300 mb-5 text-center xl:pl-0 xl:text-2xl md:text-xl font-bold">Wear it as a button to your shirt, comes with 4 extra buttons</h4>
-              <img
-                className="md:w-[30rem] md:h-60 xl:w-[40rem] xl:h-80"
-                src={light1}
-                alt="Product Image"
-              />
-            </div> */}
             <img
               className="md:w-72 xl:max-w-md"
               src={light1}
@@ -205,32 +162,6 @@ const App = () => {
           >
             <a href="#form">Yes, I Want To Order Now</a>
           </button>
-
-          {/* <div className="flex flex-col md:flex-row justify-center gap-40">
-            <img
-              src={light1}
-              alt="Product Image"
-              className='h-96'
-            />
-            <div className="text-left flex flex-col gap-3">
-              <h3 className='text-xl font-semibold'>It comes with:</h3>
-              <ul className='flex flex-col gap-3 xl:text-lg'>
-                <li>
-                  – Music Starry Projector
-                </li>
-                <li className=""> – Remote Controller</li>
-                <li className="">   – USB Cable</li>
-                <li className=""> – User Manual</li>
-              </ul>
-            </div>
-          </div> */}
-
-          {/* <div className='flex flex-col gap-5 mt-20 mb-5'>
-            <h2 className="text-xl xl:text-2xl font-semibold">Normal Price = #27,000</h2>
-            <h2 className="xl:text-3xl text-2xl text-yellow-300 font-semibold">
-              24Hours Discounted Price = #22,000
-            </h2>
-          </div> */}
         </div>
 
         <form onSubmit={handleSubmit(onSubmit)} id="form" className="flex flex-col gap-4 px-8 py-4">
