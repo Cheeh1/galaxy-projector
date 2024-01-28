@@ -2,11 +2,11 @@ import { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import toast, { Toaster } from 'react-hot-toast';
 import { useForm } from "react-hook-form"
-import light1 from "./assets/light-1.jpg"
-import light2 from "./assets/light-2.jpg"
-import light3 from "./assets/light-3.jpg"
-import light4 from "./assets/light-4.jpg"
-import lightVideo from "./assets/light.mp4"
+// import light1 from "./assets/light-1.jpg"
+// import light2 from "./assets/light-2.jpg"
+// import light3 from "./assets/light-3.jpg"
+// import light4 from "./assets/light-4.jpg"
+// import lightVideo from "./assets/light.mp4"
 
 const App = () => {
 
@@ -75,7 +75,7 @@ const App = () => {
     <>
       <Toaster />
       <main className="">
-        <div className="bg-black px-5 xl:px-20 text-white text-center py-10">
+        {/* <div className="bg-black px-5 xl:px-20 text-white text-center py-10">
           <h2 className="text-4xl font-bold text-[#00FFFF]">
             The Glalaxy Projector
           </h2>
@@ -108,24 +108,6 @@ const App = () => {
           </div>
 
           <hr className="mt-5 xl:hidden w-full" />
-          {/* <div className="flex py-20 flex-col justify-center xl:gap-40 md:flex-row">
-            <div className='flex flex-col gap-3'>
-              <h2 className="text-red-600 text-2xl text-left xl:text-center font-bold">Product Highlights:</h2>
-              <ul className="text-[#00ffff] flex flex-col gap-2 text-left">
-                <li>Music Starry Projector</li>
-                <li>Remote Controller</li>
-                <li>USB Cable</li>
-                <li>User Manual</li>
-              </ul>
-            </div>
-            <div>
-              <img
-                className="xl:max-w-md md:w-96 h-96 py-10 xl:py-0"
-                src={light1}
-                alt="Product Image"
-              />
-            </div>
-          </div> */}
 
           <h2 className="text-red-600 text-4xl xl:mt-16 text-left xl:text-center font-bold">Product Samples</h2>
           <div className="flex flex-wrap gap-8 mt-8 m-auto justify-center ">
@@ -171,7 +153,7 @@ const App = () => {
           >
             <a href="#form">Yes, I Want To Order Now</a>
           </button>
-        </div>
+        </div> */}
 
         <form onSubmit={handleSubmit(onSubmit)} id="form" className="flex flex-col gap-4 px-8 py-4">
           <div className="flex flex-col gap-2">
