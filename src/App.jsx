@@ -246,13 +246,13 @@ const App = () => {
           <div className="flex flex-col gap-2">
             <label>Select Quantity</label>
             <span
-            ><input type="radio"  {...register("quantity", { required: true })} name="quantity" value="Buy 1 Galaxy projector = #27,000" /> Buy 1 Galaxy projector = #27,000</span
+            ><input type="radio"  {...register("quantity", { required: true })} name="quantity" value="Buy 1 Galaxy projector = #30,000" /> Buy 1 Galaxy projector = #30,000</span
             >
             <span
-            ><input type="radio" {...register("quantity", { required: true })} name="quantity" value="Buy 2 Galaxy projector = #50,000" /> Buy 2 Galaxy projector = #50,000</span
+            ><input type="radio" {...register("quantity", { required: true })} name="quantity" value="Buy 2 Galaxy projector = #57,000" /> Buy 2 Galaxy projector = #57,000</span
             >
             <span
-            ><input type="radio" {...register("quantity", { required: true })} name="quantity" value="Buy 3 Galaxy Projector = #70,000" /> Buy 3 Galaxy Projector = #70,000</span
+            ><input type="radio" {...register("quantity", { required: true })} name="quantity" value="Buy 3 Galaxy Projector = #84,000" /> Buy 3 Galaxy Projector = #84,000</span
             >
             {errors.quantity && <span className='text-red-600 text-sm'>This field is required</span>}
           </div>
